@@ -4,8 +4,8 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.tools.mcp import MCPTools
 
-QDRANT_URL = ""
-QDRANT_API_KEY = ""
+QDRANT_URL = "https://2673f930-e58e-4416-9656-30803c519ecc.us-west-2-0.aws.cloud.qdrant.io:6333"
+QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.rM7hnK0YMjjP8UUm7A2_VLCxBWcmC370PCu-xs1RZww"
 COLLECTION_NAME = "vibe-code"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 os.environ['GOOGLE_API_KEY'] = ""
